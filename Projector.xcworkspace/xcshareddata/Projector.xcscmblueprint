@@ -1,0 +1,58 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2DF0F7B79F71AA75BDDF9AB8B61991102319B63E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5E5DCBA85E54E7DE322BDB2690BEBD2DE1F15290" : 0,
+    "83F12094C11BCB2E6D3428EE0CAACCE02582324B" : 0,
+    "ABB939127996C66F7E852A780552ADEEF03C6B13" : 0,
+    "6E15AE41145AA08675AE6924B83D8559C4178E52" : 0,
+    "133E48ACE0BE494B66354317828B211B70540B9E" : 0,
+    "2DF0F7B79F71AA75BDDF9AB8B61991102319B63E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E10A162D-E107-403B-8283-357222D915BC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5E5DCBA85E54E7DE322BDB2690BEBD2DE1F15290" : "projector-ios\/lib\/PCOCocoa\/Vendor\/MCTReachability",
+    "83F12094C11BCB2E6D3428EE0CAACCE02582324B" : "projector-ios\/lib\/PCOCocoa",
+    "ABB939127996C66F7E852A780552ADEEF03C6B13" : "projector-ios\/lib\/PCOCocoa\/Vendor\/SocketRocket",
+    "6E15AE41145AA08675AE6924B83D8559C4178E52" : "projector-ios\/lib\/MCTFileDownloader",
+    "133E48ACE0BE494B66354317828B211B70540B9E" : "projector-ios\/lib\/MCTAlertView",
+    "2DF0F7B79F71AA75BDDF9AB8B61991102319B63E" : "projector-ios"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Projector",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Projector.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gist.github.com\/9c8efd486226610719d4.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "133E48ACE0BE494B66354317828B211B70540B9E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ministrycentered\/projector-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2DF0F7B79F71AA75BDDF9AB8B61991102319B63E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ministrycentered\/MCTReachability",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5E5DCBA85E54E7DE322BDB2690BEBD2DE1F15290"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ministrycentered\/MCTFileDownloader.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6E15AE41145AA08675AE6924B83D8559C4178E52"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ministrycentered\/PCOCocoa.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "83F12094C11BCB2E6D3428EE0CAACCE02582324B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/skylarsch\/SocketRocket.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ABB939127996C66F7E852A780552ADEEF03C6B13"
+    }
+  ]
+}

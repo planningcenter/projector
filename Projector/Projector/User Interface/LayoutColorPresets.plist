@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>uuid</key>
+			<string>9338DEAF-B50A-446C-95E4-1BC167C67586</string>
+			<key>name</key>
+			<string>Fire</string>
+			<key>backgroundColor</key>
+			<string>253,166,40</string>
+			<key>textColor</key>
+			<string>203,48,12</string>
+			<key>strokeColor</key>
+			<string>203,116,0</string>
+		</dict>
+		<dict>
+			<key>uuid</key>
+			<string>4B27B1E1-FF1C-4E0E-86F5-75ABC19B6364</string>
+			<key>name</key>
+			<string>Blue Angel</string>
+			<key>backgroundColor</key>
+			<string>30,34,37</string>
+			<key>textColor</key>
+			<string>253,175,23</string>
+			<key>strokeColor</key>
+			<string>60,64,67</string>
+		</dict>
+		<dict>
+			<key>uuid</key>
+			<string>C296AD22-9668-45F0-8219-A371D440A430</string>
+			<key>name</key>
+			<string>Water</string>
+			<key>backgroundColor</key>
+			<string>30,129,197</string>
+			<key>textColor</key>
+			<string>255,255,255</string>
+			<key>strokeColor</key>
+			<string>0,0,0</string>
+		</dict>
+		<dict>
+			<key>uuid</key>
+			<string>79082642-0D5E-46D2-AFFC-ECD3BFDB8F77</string>
+			<key>name</key>
+			<string>Flower</string>
+			<key>backgroundColor</key>
+			<string>77,26,44</string>
+			<key>textColor</key>
+			<string>252,194,38</string>
+			<key>strokeColor</key>
+			<string>0,0,0</string>
+		</dict>
+		<dict>
+			<key>uuid</key>
+			<string>78A74E07-45AA-43E8-BCC5-C9B2A5DCEC6E</string>
+			<key>name</key>
+			<string>Earth</string>
+			<key>backgroundColor</key>
+			<string>91,160,48</string>
+			<key>textColor</key>
+			<string>255,243,206</string>
+			<key>strokeColor</key>
+			<string>31,100,0</string>
+		</dict>
+		<dict>
+			<key>uuid</key>
+			<string>971EAC0B-4310-4E8F-ADDC-A155B8CAB687</string>
+			<key>name</key>
+			<string>Black and White</string>
+			<key>backgroundColor</key>
+			<string>0,0,0</string>
+			<key>textColor</key>
+			<string>255,255,255</string>
+			<key>strokeColor</key>
+			<string>0,0,0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

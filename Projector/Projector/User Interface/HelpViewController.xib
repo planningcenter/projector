@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HelpViewController">
+            <connections>
+                <outlet property="buttonsTopConstraint" destination="5rC-dP-9vH" id="OoF-Tg-2xI"/>
+                <outlet property="giveRatingLabel" destination="cwj-6w-7VE" id="HpA-dL-Vav"/>
+                <outlet property="infoLabel" destination="Wgl-yO-Kn7" id="P3j-Ia-9lr"/>
+                <outlet property="starsButton" destination="74x-Nd-Qdf" id="sgr-PM-mDg"/>
+                <outlet property="view" destination="iN0-l3-epB" id="LLf-EB-c4f"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PCOView">
+            <rect key="frame" x="0.0" y="0.0" width="540" height="620"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8m-8F-XbZ" customClass="HelpButton">
+                    <rect key="frame" x="120" y="70" width="300" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="5T7-Py-ZwC"/>
+                    </constraints>
+                    <state key="normal" title="Documentation" image="help-manual">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="documentationButtonAction:" destination="-1" eventType="touchUpInside" id="8y9-Zr-b2o"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxC-QQ-8zw" customClass="HelpButton">
+                    <rect key="frame" x="120" y="122" width="300" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="eeH-kh-JvF"/>
+                    </constraints>
+                    <state key="normal" title="New Support Request" image="help-email">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="newSupportRequestButtonAction:" destination="-1" eventType="touchUpInside" id="1yQ-cM-qhU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vNh-gE-mTR" customClass="HelpButton">
+                    <rect key="frame" x="120" y="174" width="300" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="LZq-cy-vh6"/>
+                    </constraints>
+                    <state key="normal" title="Existing Requests" image="help-calendars">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="existingRequestsButtonAction:" destination="-1" eventType="touchUpInside" id="UR8-cT-QVc"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgl-yO-Kn7" customClass="PCOLabel">
+                    <rect key="frame" x="249" y="579" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" placeholder="YES" id="Isr-jA-iPc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74x-Nd-Qdf">
+                    <rect key="frame" x="185" y="517" width="171" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="2pO-4X-d51"/>
+                        <constraint firstAttribute="width" constant="171" id="Btd-2s-Il3"/>
+                        <constraint firstAttribute="height" constant="44" id="sYy-1i-Gye"/>
+                    </constraints>
+                    <state key="normal" title="★★★★★">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="rateUsButtonAction:" destination="-1" eventType="touchUpInside" id="5qV-K1-LfF"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Like Projector? Give us a rating!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cwj-6w-7VE">
+                    <rect key="frame" x="149" y="499" width="245" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igt-cK-Dfm" customClass="HelpButton">
+                    <rect key="frame" x="120" y="288" width="300" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" placeholder="YES" id="2TL-am-OUd"/>
+                        <constraint firstAttribute="height" constant="44" id="xM4-QT-a31"/>
+                    </constraints>
+                    <state key="normal" title="Planning Center Services App" image="help-services">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="openServicesButtonAction:" destination="-1" eventType="touchUpInside" id="5Gb-d4-VjB"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="t8m-8F-XbZ" firstAttribute="leading" secondItem="rxC-QQ-8zw" secondAttribute="leading" id="0R2-bR-d5x"/>
+                <constraint firstItem="vNh-gE-mTR" firstAttribute="trailing" secondItem="rxC-QQ-8zw" secondAttribute="trailing" id="1Zs-kX-hOl"/>
+                <constraint firstItem="t8m-8F-XbZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="70" id="5rC-dP-9vH"/>
+                <constraint firstItem="vNh-gE-mTR" firstAttribute="top" secondItem="rxC-QQ-8zw" secondAttribute="bottom" constant="8" id="9D0-Qj-9Ke"/>
+                <constraint firstItem="74x-Nd-Qdf" firstAttribute="top" secondItem="cwj-6w-7VE" secondAttribute="bottom" constant="-2" id="AYJ-AP-Zlg"/>
+                <constraint firstAttribute="centerY" secondItem="igt-cK-Dfm" secondAttribute="centerY" id="NmT-xH-TKa"/>
+                <constraint firstItem="vNh-gE-mTR" firstAttribute="trailing" secondItem="igt-cK-Dfm" secondAttribute="trailing" id="QVC-7H-RZl"/>
+                <constraint firstAttribute="centerX" secondItem="cwj-6w-7VE" secondAttribute="centerX" id="TXe-Ku-vuq"/>
+                <constraint firstItem="igt-cK-Dfm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="UpI-jj-hK6"/>
+                <constraint firstItem="vNh-gE-mTR" firstAttribute="leading" secondItem="rxC-QQ-8zw" secondAttribute="leading" id="VXZ-gW-VKG"/>
+                <constraint firstAttribute="centerX" secondItem="74x-Nd-Qdf" secondAttribute="centerX" constant="-0.5" id="WPc-qO-5F2"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="igt-cK-Dfm" secondAttribute="trailing" constant="20" id="Y89-Zg-ZtF"/>
+                <constraint firstAttribute="bottom" secondItem="Wgl-yO-Kn7" secondAttribute="bottom" constant="20" id="a1B-bS-d8W"/>
+                <constraint firstAttribute="centerX" secondItem="Wgl-yO-Kn7" secondAttribute="centerX" id="a2K-1t-jJF"/>
+                <constraint firstItem="t8m-8F-XbZ" firstAttribute="trailing" secondItem="rxC-QQ-8zw" secondAttribute="trailing" id="pHm-w5-vD5"/>
+                <constraint firstItem="Wgl-yO-Kn7" firstAttribute="top" secondItem="74x-Nd-Qdf" secondAttribute="bottom" constant="18" id="rzJ-0e-7c9"/>
+                <constraint firstAttribute="centerX" secondItem="igt-cK-Dfm" secondAttribute="centerX" id="v7c-eT-cid"/>
+                <constraint firstItem="vNh-gE-mTR" firstAttribute="leading" secondItem="igt-cK-Dfm" secondAttribute="leading" id="vab-bH-Mv3"/>
+                <constraint firstItem="rxC-QQ-8zw" firstAttribute="top" secondItem="t8m-8F-XbZ" secondAttribute="bottom" constant="8" id="vft-QA-koW"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="help-calendars" width="13" height="14"/>
+        <image name="help-email" width="14" height="10"/>
+        <image name="help-manual" width="11" height="14"/>
+        <image name="help-services" width="10" height="11"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

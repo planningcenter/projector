@@ -1,0 +1,34 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_7_1
+#warning "This project uses features only available in iOS SDK 7.1 and later."
+#endif
+
+#define PCO_COCOA_DEFINE_COLOR_SHORT_HAND 1
+#define PCOKIT_INCLUDE_OPTIONAL_CLASSES 1
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <MCTDataCache/MCTDataCache.h>
+
+    #import "PCOKit.h"
+    #import "PCOCocoa.h"
+
+    #import "PROAppDelegate.h"
+    #import "ProjectorStrings.h"
+    #import "ProjectorSettings.h"
+    #import "PROSecondScreenController.h"
+    #import "PROStateSaver.h"
+    #import "MCTAlertView.h"
+
+    #import "UIColor+PROColors.h"
+    #import "UIFont+MCTFonts.h"
+    #import "PCOEventLogger.h"
+#endif

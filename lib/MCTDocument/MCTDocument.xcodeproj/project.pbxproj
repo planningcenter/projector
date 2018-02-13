@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		946729D918E5E08000046B4A /* MCTDocumentSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 946729D818E5E08000046B4A /* MCTDocumentSlide.m */; };
+		9475F7C618E47C3C007BB77F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9475F7C518E47C3C007BB77F /* Foundation.framework */; };
+		9475F7CB18E47C3C007BB77F /* MCTDocument.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9475F7CA18E47C3C007BB77F /* MCTDocument.h */; };
+		9475F7CD18E47C3C007BB77F /* MCTDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9475F7CC18E47C3C007BB77F /* MCTDocument.m */; };
+		9475F7D418E47C3C007BB77F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9475F7D318E47C3C007BB77F /* XCTest.framework */; };
+		9475F7D518E47C3C007BB77F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9475F7C518E47C3C007BB77F /* Foundation.framework */; };
+		9475F7D718E47C3C007BB77F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9475F7D618E47C3C007BB77F /* UIKit.framework */; };
+		9475F7DA18E47C3C007BB77F /* libMCTDocument.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9475F7C218E47C3C007BB77F /* libMCTDocument.a */; };
+		9475F7E018E47C3C007BB77F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9475F7DE18E47C3C007BB77F /* InfoPlist.strings */; };
+		9475F7E218E47C3C007BB77F /* MCTDocumentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9475F7E118E47C3C007BB77F /* MCTDocumentTests.m */; };
+		9475F7EC18E47CAD007BB77F /* EVEOnline.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 9475F7EB18E47CAD007BB77F /* EVEOnline.pptx */; };
+		9475F7F418E486AD007BB77F /* MCTDocumentPowerPointXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9475F7F318E486AD007BB77F /* MCTDocumentPowerPointXParser.m */; };
+		948E6D9D18E493C600341A60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9475F7C518E47C3C007BB77F /* Foundation.framework */; };
+		948E6D9F18E493C600341A60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948E6D9E18E493C600341A60 /* CoreGraphics.framework */; };
+		948E6DA018E493C600341A60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9475F7D618E47C3C007BB77F /* UIKit.framework */; };
+		948E6DA618E493C600341A60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 948E6DA418E493C600341A60 /* InfoPlist.strings */; };
+		948E6DA818E493C600341A60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 948E6DA718E493C600341A60 /* main.m */; };
+		948E6DAC18E493C600341A60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 948E6DAB18E493C600341A60 /* AppDelegate.m */; };
+		948E6DAE18E493C600341A60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948E6DAD18E493C600341A60 /* Images.xcassets */; };
+		948E6DC918E493D700341A60 /* libMCTDocument.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9475F7C218E47C3C007BB77F /* libMCTDocument.a */; };
+		948E6DCA18E4945E00341A60 /* EVEOnline.pptx in Resources */ = {isa = PBXBuildFile; fileRef = 9475F7EB18E47CAD007BB77F /* EVEOnline.pptx */; };
+		94AB6CB118E5CD7500906C71 /* MCTDocumentParserHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AB6CB018E5CD7500906C71 /* MCTDocumentParserHelper.m */; };
+		94AB6CB318E5CEC000906C71 /* TestingKeynote.key in Resources */ = {isa = PBXBuildFile; fileRef = 94AB6CB218E5CEC000906C71 /* TestingKeynote.key */; };
+		94AB6CB518E5DBCD00906C71 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94AB6CB418E5DBCD00906C71 /* Interface.storyboard */; };
+		94AB6CB818E5DC5E00906C71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AB6CB718E5DC5E00906C71 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9475F7D818E47C3C007BB77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9475F7BA18E47C3C007BB77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9475F7C118E47C3C007BB77F;
+			remoteInfo = MCTDocument;
+		};
+		948E6DC718E493D100341A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9475F7BA18E47C3C007BB77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9475F7C118E47C3C007BB77F;
+			remoteInfo = MCTDocument;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9475F7C018E47C3C007BB77F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9475F7CB18E47C3C007BB77F /* MCTDocument.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		946729D718E5E08000046B4A /* MCTDocumentSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTDocumentSlide.h; sourceTree = "<group>"; };
+		946729D818E5E08000046B4A /* MCTDocumentSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTDocumentSlide.m; sourceTree = "<group>"; };
+		9475F7C218E47C3C007BB77F /* libMCTDocument.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMCTDocument.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9475F7C518E47C3C007BB77F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9475F7C918E47C3C007BB77F /* MCTDocument-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCTDocument-Prefix.pch"; sourceTree = "<group>"; };
+		9475F7CA18E47C3C007BB77F /* MCTDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCTDocument.h; sourceTree = "<group>"; };
+		9475F7CC18E47C3C007BB77F /* MCTDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCTDocument.m; sourceTree = "<group>"; };
+		9475F7D218E47C3C007BB77F /* MCTDocumentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCTDocumentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9475F7D318E47C3C007BB77F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9475F7D618E47C3C007BB77F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9475F7DD18E47C3C007BB77F /* MCTDocumentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCTDocumentTests-Info.plist"; sourceTree = "<group>"; };
+		9475F7DF18E47C3C007BB77F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9475F7E118E47C3C007BB77F /* MCTDocumentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCTDocumentTests.m; sourceTree = "<group>"; };
+		9475F7EB18E47CAD007BB77F /* EVEOnline.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = EVEOnline.pptx; sourceTree = "<group>"; };
+		9475F7F218E486AD007BB77F /* MCTDocumentPowerPointXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTDocumentPowerPointXParser.h; sourceTree = "<group>"; };
+		9475F7F318E486AD007BB77F /* MCTDocumentPowerPointXParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTDocumentPowerPointXParser.m; sourceTree = "<group>"; };
+		9475F7F618E486C8007BB77F /* MCTDocumentParsers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCTDocumentParsers.h; sourceTree = "<group>"; };
+		948E6D9C18E493C500341A60 /* MCTDocumentTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCTDocumentTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		948E6D9E18E493C600341A60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		948E6DA318E493C600341A60 /* MCTDocumentTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCTDocumentTestApp-Info.plist"; sourceTree = "<group>"; };
+		948E6DA518E493C600341A60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		948E6DA718E493C600341A60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		948E6DA918E493C600341A60 /* MCTDocumentTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCTDocumentTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		948E6DAA18E493C600341A60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		948E6DAB18E493C600341A60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		948E6DAD18E493C600341A60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94AB6CAF18E5CD7500906C71 /* MCTDocumentParserHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTDocumentParserHelper.h; sourceTree = "<group>"; };
+		94AB6CB018E5CD7500906C71 /* MCTDocumentParserHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTDocumentParserHelper.m; sourceTree = "<group>"; };
+		94AB6CB218E5CEC000906C71 /* TestingKeynote.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = TestingKeynote.key; sourceTree = "<group>"; };
+		94AB6CB418E5DBCD00906C71 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		94AB6CB618E5DC5E00906C71 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94AB6CB718E5DC5E00906C71 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9475F7BF18E47C3C007BB77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9475F7C618E47C3C007BB77F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9475F7CF18E47C3C007BB77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9475F7D418E47C3C007BB77F /* XCTest.framework in Frameworks */,
+				9475F7DA18E47C3C007BB77F /* libMCTDocument.a in Frameworks */,
+				9475F7D718E47C3C007BB77F /* UIKit.framework in Frameworks */,
+				9475F7D518E47C3C007BB77F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948E6D9918E493C500341A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948E6DC918E493D700341A60 /* libMCTDocument.a in Frameworks */,
+				948E6D9F18E493C600341A60 /* CoreGraphics.framework in Frameworks */,
+				948E6DA018E493C600341A60 /* UIKit.framework in Frameworks */,
+				948E6D9D18E493C600341A60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9475F7B918E47C3C007BB77F = {
+			isa = PBXGroup;
+			children = (
+				9475F7C718E47C3C007BB77F /* MCTDocument */,
+				9475F7DB18E47C3C007BB77F /* MCTDocumentTests */,
+				948E6DA118E493C600341A60 /* MCTDocumentTestApp */,
+				9475F7C418E47C3C007BB77F /* Frameworks */,
+				9475F7C318E47C3C007BB77F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9475F7C318E47C3C007BB77F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9475F7C218E47C3C007BB77F /* libMCTDocument.a */,
+				9475F7D218E47C3C007BB77F /* MCTDocumentTests.xctest */,
+				948E6D9C18E493C500341A60 /* MCTDocumentTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9475F7C418E47C3C007BB77F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9475F7C518E47C3C007BB77F /* Foundation.framework */,
+				9475F7D318E47C3C007BB77F /* XCTest.framework */,
+				9475F7D618E47C3C007BB77F /* UIKit.framework */,
+				948E6D9E18E493C600341A60 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9475F7C718E47C3C007BB77F /* MCTDocument */ = {
+			isa = PBXGroup;
+			children = (
+				9475F7CA18E47C3C007BB77F /* MCTDocument.h */,
+				9475F7CC18E47C3C007BB77F /* MCTDocument.m */,
+				946729D718E5E08000046B4A /* MCTDocumentSlide.h */,
+				946729D818E5E08000046B4A /* MCTDocumentSlide.m */,
+				9475F7F518E486B0007BB77F /* Parsers */,
+				9475F7C818E47C3C007BB77F /* Supporting Files */,
+			);
+			path = MCTDocument;
+			sourceTree = "<group>";
+		};
+		9475F7C818E47C3C007BB77F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9475F7C918E47C3C007BB77F /* MCTDocument-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9475F7DB18E47C3C007BB77F /* MCTDocumentTests */ = {
+			isa = PBXGroup;
+			children = (
+				9475F7E118E47C3C007BB77F /* MCTDocumentTests.m */,
+				9475F7DC18E47C3C007BB77F /* Supporting Files */,
+			);
+			path = MCTDocumentTests;
+			sourceTree = "<group>";
+		};
+		9475F7DC18E47C3C007BB77F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9475F7EB18E47CAD007BB77F /* EVEOnline.pptx */,
+				9475F7DD18E47C3C007BB77F /* MCTDocumentTests-Info.plist */,
+				9475F7DE18E47C3C007BB77F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9475F7F518E486B0007BB77F /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				94AB6CAE18E5CD5700906C71 /* Helpers */,
+				9475F7F618E486C8007BB77F /* MCTDocumentParsers.h */,
+				9475F7F218E486AD007BB77F /* MCTDocumentPowerPointXParser.h */,
+				9475F7F318E486AD007BB77F /* MCTDocumentPowerPointXParser.m */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		948E6DA118E493C600341A60 /* MCTDocumentTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				948E6DAA18E493C600341A60 /* AppDelegate.h */,
+				948E6DAB18E493C600341A60 /* AppDelegate.m */,
+				94AB6CB618E5DC5E00906C71 /* ViewController.h */,
+				94AB6CB718E5DC5E00906C71 /* ViewController.m */,
+				94AB6CB418E5DBCD00906C71 /* Interface.storyboard */,
+				948E6DAD18E493C600341A60 /* Images.xcassets */,
+				948E6DA218E493C600341A60 /* Supporting Files */,
+			);
+			path = MCTDocumentTestApp;
+			sourceTree = "<group>";
+		};
+		948E6DA218E493C600341A60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94AB6CB218E5CEC000906C71 /* TestingKeynote.key */,
+				948E6DA318E493C600341A60 /* MCTDocumentTestApp-Info.plist */,
+				948E6DA418E493C600341A60 /* InfoPlist.strings */,
+				948E6DA718E493C600341A60 /* main.m */,
+				948E6DA918E493C600341A60 /* MCTDocumentTestApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94AB6CAE18E5CD5700906C71 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				94AB6CAF18E5CD7500906C71 /* MCTDocumentParserHelper.h */,
+				94AB6CB018E5CD7500906C71 /* MCTDocumentParserHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9475F7C118E47C3C007BB77F /* MCTDocument */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9475F7E518E47C3C007BB77F /* Build configuration list for PBXNativeTarget "MCTDocument" */;
+			buildPhases = (
+				9475F7BE18E47C3C007BB77F /* Sources */,
+				9475F7BF18E47C3C007BB77F /* Frameworks */,
+				9475F7C018E47C3C007BB77F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCTDocument;
+			productName = MCTDocument;
+			productReference = 9475F7C218E47C3C007BB77F /* libMCTDocument.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9475F7D118E47C3C007BB77F /* MCTDocumentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9475F7E818E47C3C007BB77F /* Build configuration list for PBXNativeTarget "MCTDocumentTests" */;
+			buildPhases = (
+				9475F7CE18E47C3C007BB77F /* Sources */,
+				9475F7CF18E47C3C007BB77F /* Frameworks */,
+				9475F7D018E47C3C007BB77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9475F7D918E47C3C007BB77F /* PBXTargetDependency */,
+			);
+			name = MCTDocumentTests;
+			productName = MCTDocumentTests;
+			productReference = 9475F7D218E47C3C007BB77F /* MCTDocumentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		948E6D9B18E493C500341A60 /* MCTDocumentTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948E6DC518E493C600341A60 /* Build configuration list for PBXNativeTarget "MCTDocumentTestApp" */;
+			buildPhases = (
+				948E6D9818E493C500341A60 /* Sources */,
+				948E6D9918E493C500341A60 /* Frameworks */,
+				948E6D9A18E493C500341A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				948E6DC818E493D100341A60 /* PBXTargetDependency */,
+			);
+			name = MCTDocumentTestApp;
+			productName = MCTDocumentTestApp;
+			productReference = 948E6D9C18E493C500341A60 /* MCTDocumentTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9475F7BA18E47C3C007BB77F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ministry Centered Technology";
+				TargetAttributes = {
+					9475F7D118E47C3C007BB77F = {
+						TestTargetID = 948E6D9B18E493C500341A60;
+					};
+				};
+			};
+			buildConfigurationList = 9475F7BD18E47C3C007BB77F /* Build configuration list for PBXProject "MCTDocument" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9475F7B918E47C3C007BB77F;
+			productRefGroup = 9475F7C318E47C3C007BB77F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9475F7C118E47C3C007BB77F /* MCTDocument */,
+				9475F7D118E47C3C007BB77F /* MCTDocumentTests */,
+				948E6D9B18E493C500341A60 /* MCTDocumentTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9475F7D018E47C3C007BB77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9475F7E018E47C3C007BB77F /* InfoPlist.strings in Resources */,
+				9475F7EC18E47CAD007BB77F /* EVEOnline.pptx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948E6D9A18E493C500341A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948E6DCA18E4945E00341A60 /* EVEOnline.pptx in Resources */,
+				948E6DA618E493C600341A60 /* InfoPlist.strings in Resources */,
+				94AB6CB318E5CEC000906C71 /* TestingKeynote.key in Resources */,
+				94AB6CB518E5DBCD00906C71 /* Interface.storyboard in Resources */,
+				948E6DAE18E493C600341A60 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9475F7BE18E47C3C007BB77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9475F7F418E486AD007BB77F /* MCTDocumentPowerPointXParser.m in Sources */,
+				946729D918E5E08000046B4A /* MCTDocumentSlide.m in Sources */,
+				94AB6CB118E5CD7500906C71 /* MCTDocumentParserHelper.m in Sources */,
+				9475F7CD18E47C3C007BB77F /* MCTDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9475F7CE18E47C3C007BB77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9475F7E218E47C3C007BB77F /* MCTDocumentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948E6D9818E493C500341A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AB6CB818E5DC5E00906C71 /* ViewController.m in Sources */,
+				948E6DAC18E493C600341A60 /* AppDelegate.m in Sources */,
+				948E6DA818E493C600341A60 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9475F7D918E47C3C007BB77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9475F7C118E47C3C007BB77F /* MCTDocument */;
+			targetProxy = 9475F7D818E47C3C007BB77F /* PBXContainerItemProxy */;
+		};
+		948E6DC818E493D100341A60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9475F7C118E47C3C007BB77F /* MCTDocument */;
+			targetProxy = 948E6DC718E493D100341A60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9475F7DE18E47C3C007BB77F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9475F7DF18E47C3C007BB77F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		948E6DA418E493C600341A60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948E6DA518E493C600341A60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9475F7E318E47C3C007BB77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9475F7E418E47C3C007BB77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9475F7E618E47C3C007BB77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MCTDocument.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCTDocument/MCTDocument-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9475F7E718E47C3C007BB77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MCTDocument.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCTDocument/MCTDocument-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9475F7E918E47C3C007BB77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MCTDocumentTestApp.app/MCTDocumentTestApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCTDocument/MCTDocument-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MCTDocumentTests/MCTDocumentTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ministrycentered.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9475F7EA18E47C3C007BB77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MCTDocumentTestApp.app/MCTDocumentTestApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCTDocument/MCTDocument-Prefix.pch";
+				INFOPLIST_FILE = "MCTDocumentTests/MCTDocumentTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ministrycentered.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		948E6DC118E493C600341A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCTDocumentTestApp/MCTDocumentTestApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MCTDocumentTestApp/MCTDocumentTestApp-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ministrycentered.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		948E6DC218E493C600341A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCTDocumentTestApp/MCTDocumentTestApp-Prefix.pch";
+				INFOPLIST_FILE = "MCTDocumentTestApp/MCTDocumentTestApp-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ministrycentered.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9475F7BD18E47C3C007BB77F /* Build configuration list for PBXProject "MCTDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9475F7E318E47C3C007BB77F /* Debug */,
+				9475F7E418E47C3C007BB77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9475F7E518E47C3C007BB77F /* Build configuration list for PBXNativeTarget "MCTDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9475F7E618E47C3C007BB77F /* Debug */,
+				9475F7E718E47C3C007BB77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9475F7E818E47C3C007BB77F /* Build configuration list for PBXNativeTarget "MCTDocumentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9475F7E918E47C3C007BB77F /* Debug */,
+				9475F7EA18E47C3C007BB77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		948E6DC518E493C600341A60 /* Build configuration list for PBXNativeTarget "MCTDocumentTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948E6DC118E493C600341A60 /* Debug */,
+				948E6DC218E493C600341A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9475F7BA18E47C3C007BB77F /* Project object */;
+}

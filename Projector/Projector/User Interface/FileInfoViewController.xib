@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FileInfoViewController">
+            <connections>
+                <outlet property="deleteButton" destination="79Y-iA-r8T" id="hhR-eS-M6a"/>
+                <outlet property="tableView" destination="1fB-Wt-Fwz" id="bh6-Ml-OZL"/>
+                <outlet property="thumbnailView" destination="1DG-CV-lNN" id="8Lt-Dq-cFb"/>
+                <outlet property="view" destination="iN0-l3-epB" id="1g6-aU-TJU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PCOView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="1fB-Wt-Fwz">
+                    <rect key="frame" x="-1" y="164" width="322" height="187"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="zyX-c4-hIx"/>
+                        <outlet property="delegate" destination="-1" id="m7S-t8-jty"/>
+                    </connections>
+                </tableView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1DG-CV-lNN">
+                    <rect key="frame" x="12" y="12" width="296" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="kIv-FE-Kv3"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79Y-iA-r8T">
+                    <rect key="frame" x="0.0" y="350" width="320" height="50"/>
+                    <color key="backgroundColor" red="0.090196078431372548" green="0.090196078431372548" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="keo-QJ-wcW"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="11" maxY="0.0"/>
+                    <state key="normal" title="DELETE" image="red_close">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="deleteButtonAction:" destination="-1" eventType="touchUpInside" id="YWR-HW-9tb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="1DG-CV-lNN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="6TN-6Z-8It"/>
+                <constraint firstItem="1DG-CV-lNN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="KCX-Hc-uYB"/>
+                <constraint firstAttribute="trailing" secondItem="1DG-CV-lNN" secondAttribute="trailing" constant="12" id="MPJ-6g-SXQ"/>
+                <constraint firstItem="1fB-Wt-Fwz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-1" id="TGm-Us-Ewp"/>
+                <constraint firstItem="79Y-iA-r8T" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="juF-z3-wAT"/>
+                <constraint firstAttribute="bottom" secondItem="79Y-iA-r8T" secondAttribute="bottom" id="nOU-N5-mjM"/>
+                <constraint firstItem="1fB-Wt-Fwz" firstAttribute="top" secondItem="1DG-CV-lNN" secondAttribute="bottom" constant="12" id="oKf-M1-A3z"/>
+                <constraint firstAttribute="trailing" secondItem="79Y-iA-r8T" secondAttribute="trailing" id="sOi-yg-Wgg"/>
+                <constraint firstItem="79Y-iA-r8T" firstAttribute="top" secondItem="1fB-Wt-Fwz" secondAttribute="bottom" constant="-1" id="v4R-7O-7iN"/>
+                <constraint firstAttribute="trailing" secondItem="1fB-Wt-Fwz" secondAttribute="trailing" constant="-1" id="vUR-LT-5fD"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="574" y="399"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="red_close" width="13" height="14"/>
+    </resources>
+</document>
